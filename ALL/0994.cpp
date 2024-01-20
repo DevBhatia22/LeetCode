@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int visited[11][11];
+    int visited[10][10];
     int bfs(std::vector<std::vector<int>>& grid, std::queue<std::pair<int, int>>& q){
         int time = -1;
         std::vector<int> row({-1, 0, 1, 0});
